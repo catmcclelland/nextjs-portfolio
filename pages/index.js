@@ -6,7 +6,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Cat&apos;s Portfolio</title>
+        <title>Cat&#39;s Portfolio</title>
         <meta name="description" content="Collection of projects Cat made" />
         <link rel="icon" href="/favicon.ico" />
       </Head>

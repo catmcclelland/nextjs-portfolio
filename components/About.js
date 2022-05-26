@@ -7,10 +7,10 @@ function About() {
       <div className="max-w-5xl">
         <div className="  p-10 flex flex-col  justify-center container">
           <h1 className="text-5xl">
-            Hi, I&apos;m Cat. A front-end web developer.
+            Hi, I&#39;m Cat. A front-end web developer.
           </h1>
           <p className="my-10 text-md">
-            I&apos;m a highly motivated and enthusiastic developer looking to
+            I&#39;m a highly motivated and enthusiastic developer looking to
             work on exciting and challenging projects.Lorem ipsum dolor sit
             amet, consectetur adipiscing elit. Maecenas aliquam tortor eu mauris
             euismod, id tristique nisl tempor.
