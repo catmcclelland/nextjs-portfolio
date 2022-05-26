@@ -6,11 +6,10 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>Cat's Portfolio</title>
+        <title>Cat\'s Portfolio</title>
         <meta name="description" content="Collection of projects Cat made" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-      <Navbar />
     </div>
   );
 }
