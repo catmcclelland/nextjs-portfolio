@@ -6,11 +6,13 @@ function About() {
     <section className="text-gray-100 md:my-4 lg:my-6 xl:my-10  flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
       <div className="max-w-5xl">
         <div className="  p-10 flex flex-col  justify-center container">
-          <h1 className="text-5xl">Hi, I\'m Cat. A front-end web developer.</h1>
+          <h1 className="text-5xl">
+            Hi, I&apos;m Cat. A front-end web developer.
+          </h1>
           <p className="my-10 text-md">
-            I\'m a highly motivated and enthusiastic developer looking to work
-            on exciting and challenging projects.Lorem ipsum dolor sit amet,
-            consectetur adipiscing elit. Maecenas aliquam tortor eu mauris
+            I&apos;m a highly motivated and enthusiastic developer looking to
+            work on exciting and challenging projects.Lorem ipsum dolor sit
+            amet, consectetur adipiscing elit. Maecenas aliquam tortor eu mauris
             euismod, id tristique nisl tempor.
           </p>
           <div className="flex flex-row items-center">
