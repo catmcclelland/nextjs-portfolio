@@ -30,14 +30,16 @@ function About() {
             </a>
           </div>
           <div
-            className=" w-full mt-10"
+            className=" w-full mt-10 animate-gradient"
             style={{
               backgroundPosition: "0% 0%",
               background:
                 "linear-gradient(to right, #B294FF, #57E6E6, #FEFFB8, #57E6E6, #B294FF, #57E6E6)",
               animation: "gradient 3s linear infinite",
               backgroundSize: "500% auto",
-              height: "1px",
+              height: "2px",
+              borderBottomRightRadius: "2px",
+              borderBottomLeftRadius: "2px",
             }}></div>
         </div>
       </div>
