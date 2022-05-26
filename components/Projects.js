@@ -1,3 +1,4 @@
+import { projects } from "../data";
 import React from "react";
 
 function Projects() {
@@ -6,6 +7,21 @@ function Projects() {
       <div className="max-w-5xl">
         <div className="  p-10 flex flex-col  justify-center container">
           <h2 className="text-5xl">Projects</h2>
+          <div className="flex flex-wrap w-full">
+            {projects.map((x) => {
+              return (
+                <div className="mt-10 flex flex-col md:flex-row justify-start items-center md:items-start">
+                  <a href={x.link} className="w-full md:w-1/2 mr-10">
+                    <img src={x.image} className="object-cover aspect-video" />
+                  </a>
+                  <div className="mt-6 md:mt-0 w-full md:w-1/2">
+                    <h3 className="text-2xl">{x.title}</h3>
+                    <p className="mt-2">{x.description}</p>
+                  </div>
+                </div>
+              );
+            })}
+          </div>
         </div>
       </div>
     </section>

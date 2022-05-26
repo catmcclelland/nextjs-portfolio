@@ -3,7 +3,7 @@ import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 
 function Navbar() {
-  const [navBarOpen, setNavBarOpen] = useState(true);
+  const [navBarOpen, setNavBarOpen] = useState(false);
   const handleClick = () => {
     setNavBarOpen(!navBarOpen);
   };
