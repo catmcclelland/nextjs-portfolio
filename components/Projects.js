@@ -1,6 +1,6 @@
 import { projects } from "../data";
 import React from "react";
-import { Image } from "next/image";
+import Image from "next/image";
 function Projects() {
   return (
     <section className="text-gray-100 md:my-4 lg:my-6 xl:my-10  flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
@@ -16,7 +16,10 @@ function Projects() {
                   <a href={x.link} className="w-full md:w-1/2 mr-10">
                     <Image
                       src={x.image}
-                      alt={x.subtitle}
+                      alt="alt"
+                      layout="responsive"
+                      width={x.imageWidth}
+                      height={x.imageHeight}
                       className="object-cover aspect-video"
                     />
                   </a>
