@@ -47,21 +47,21 @@ function Navbar() {
             onClick={handleClick}
           />
           <ul className=" mt-10 flex w-full bg-black z-10 flex-col justify-center items-center text-xl">
-            <li className="m-6">
+            <li className="m-6" onClick={handleClick}>
               <a
                 href="#home"
                 className="m-6 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
                 Home
               </a>
             </li>
-            <li className="m-6">
+            <li className="m-6" onClick={handleClick}>
               <a
                 href="#"
                 className="m-6 px-4 py-2  rounded-lg  font-mono text-gray-100">
                 About
               </a>
             </li>
-            <li className="m-6">
+            <li className="m-6" onClick={handleClick}>
               <a
                 href="#projects"
                 className="mx-4 px-4 py-2  rounded-lg  font-mono text-gray-100">

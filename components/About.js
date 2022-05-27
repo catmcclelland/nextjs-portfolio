@@ -13,7 +13,7 @@ function About() {
           </h1>
           <p className="my-10 text-md">
             I&#39;m a highly motivated and enthusiastic developer looking to
-            work on exciting and challenging projects. Lately I&#39;ve been
+            work on exciting and challenging projects. Lately I&#39;gitve been
             developing my projects with{" "}
             <span className=" whitespace-nowrap">
               <SiReact className=" inline mr-2 text-cyan-200" />

@@ -5,7 +5,7 @@ function Projects() {
   return (
     <section
       id="projects"
-      className="text-gray-100    flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
+      className="text-gray-100  pb-20  flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
       <div className="max-w-5xl">
         <div className="  px-10 flex flex-col  justify-center container">
           <h2 className="text-5xl">Projects</h2>
