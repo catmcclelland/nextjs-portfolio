@@ -31,13 +31,13 @@ function Navbar() {
             Projects
           </a>
         </li>
-        <li>
+        {/* <li>
           <a
             href="#skills"
             className="mx-4 px-4 py-2 text-gray-100 rounded-lg  font-mono">
             Skills
           </a>
-        </li>
+        </li> */}
       </ul>
 
       {navBarOpen ? (
@@ -50,7 +50,7 @@ function Navbar() {
             <li className="m-6">
               <a
                 href="#home"
-                className="m-6 px-4 py-1 bg-gray-200 rounded-lg white font-mono">
+                className="m-6 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
                 Home
               </a>
             </li>
@@ -68,13 +68,13 @@ function Navbar() {
                 Projects
               </a>
             </li>
-            <li className="m-6">
+            {/* <li className="m-6">
               <a
                 href="#skills"
                 className="mx-4 px-4 py-2  rounded-lg  font-mono text-gray-100">
                 Skills
               </a>
-            </li>
+            </li> */}
           </ul>
         </div>
       ) : (

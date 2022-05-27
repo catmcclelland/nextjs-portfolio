@@ -3,29 +3,29 @@ import React from "react";
 import Image from "next/image";
 function Projects() {
   return (
-    <section className="text-gray-100 md:my-4 lg:my-6 xl:my-10  flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
+    <section
+      id="projects"
+      className="text-gray-100    flex flex-col  justify-center items-center w-screen min-h-1/2 font-mono">
       <div className="max-w-5xl">
-        <div className="  p-10 flex flex-col  justify-center container">
+        <div className="  px-10 flex flex-col  justify-center container">
           <h2 className="text-5xl">Projects</h2>
-          <div className="flex flex-wrap w-full">
+          <div className="flex flex-wrap justify-center items-center w-full">
             {projects.map((x, index) => {
               return (
                 <div
                   key={index}
-                  className="mt-10 flex flex-col md:flex-row justify-start items-center md:items-start">
-                  <a href={x.link} className="w-full md:w-1/2 mr-10">
+                  className="flex flex-col md:flex-row justify-center items-center ">
+                  <a href={x.link} className="w-full md:w-1/2 m-4">
                     <Image
                       src={x.image}
                       alt="alt"
-                      layout="responsive"
                       width={x.imageWidth}
                       height={x.imageHeight}
-                      className="object-cover aspect-video"
                     />
                   </a>
-                  <div className="mt-6 md:mt-0 w-full md:w-1/2">
+                  <div className="md:m-2 md:self-start w-full md:w-1/2">
                     <h3 className="text-2xl">{x.title}</h3>
-                    <p className="mt-2">{x.description}</p>
+                    <p className="mt-2 text-md">{x.description}</p>
                   </div>
                 </div>
               );
