@@ -13,7 +13,7 @@ function About() {
           </h1>
           <p className="my-10 text-md">
             I&#39;m a highly motivated and enthusiastic developer looking to
-            work on exciting and challenging projects. Lately I've been
+            work on exciting and challenging projects. Lately I&#39;ve been
             developing my projects with{" "}
             <span className=" whitespace-nowrap">
               <SiReact className=" inline mr-2 text-cyan-200" />
@@ -26,15 +26,22 @@ function About() {
             </span>
           </p>
           <div className="flex flex-row items-center">
-            <a href="https://github.com/catmcclelland" target="_blank">
+            <a
+              href="https://github.com/catmcclelland"
+              target="_blank"
+              rel="noreferrer">
               <FiGithub className="w-6 h-6 mr-4" />
             </a>
             <a
               href="https://www.linkedin.com/in/catmcclelland/"
-              target="_blank">
+              target="_blank"
+              rel="noreferrer">
               <FiLinkedin className="w-6 h-6 mx-4" />
             </a>
-            <a href="https://devpost.com/catmcclelland" target="_blank">
+            <a
+              href="https://devpost.com/catmcclelland"
+              target="_blank"
+              rel="noreferrer">
               <SiDevpost className="w-6 h-6 mx-4" />
             </a>
 

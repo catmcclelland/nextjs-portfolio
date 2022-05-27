@@ -15,7 +15,11 @@ function Projects() {
                 <div
                   key={index}
                   className="flex flex-col md:flex-row justify-center items-center ">
-                  <a href={x.link} className="w-full md:w-1/2 m-4">
+                  <a
+                    href={x.link}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="w-full md:w-1/2 m-4">
                     <Image
                       src={x.image}
                       alt="alt"
