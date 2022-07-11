@@ -30,6 +30,20 @@ function Projects() {
                   <div className="md:m-2 md:self-start w-full md:w-1/2">
                     <h3 className="text-2xl">{x.title}</h3>
                     <p className="mt-2 text-md">{x.description}</p>
+                    <div className="flex justify-start mt-2">
+                      <a
+                        href={x.demo}
+                        target="_blank"
+                        className="mr-2 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
+                        Demo
+                      </a>
+                      <a
+                        href={x.link}
+                        target="_blank"
+                        className="mr-2 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
+                        GitHub
+                      </a>
+                    </div>
                   </div>
                 </div>
               );

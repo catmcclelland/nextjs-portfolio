@@ -31,13 +31,6 @@ function Navbar() {
             Projects
           </a>
         </li>
-        {/* <li>
-          <a
-            href="#skills"
-            className="mx-4 px-4 py-2 text-gray-100 rounded-lg  font-mono">
-            Skills
-          </a>
-        </li> */}
       </ul>
 
       {navBarOpen ? (
