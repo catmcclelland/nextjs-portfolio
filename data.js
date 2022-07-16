@@ -32,6 +32,6 @@ export const projects = [
     link: "https://github.com/catmcclelland/calculator",
     demo: "https://ti-108.netlify.app/",
     imageWidth: "1030",
-    imageHeight: "807",
+    imageHeight: "808",
   },
 ];
