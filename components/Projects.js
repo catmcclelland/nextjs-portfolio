@@ -34,12 +34,14 @@ function Projects() {
                       <a
                         href={x.demo}
                         target="_blank"
+                        rel="noreferrer"
                         className="mr-2 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
                         Demo
                       </a>
                       <a
                         href={x.link}
                         target="_blank"
+                        rel="noreferrer"
                         className="mr-2 px-4 py-1 bg-gray-800 rounded-lg white font-mono">
                         GitHub
                       </a>
