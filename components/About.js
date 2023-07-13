@@ -9,7 +9,7 @@ function About() {
       <div className="max-w-5xl">
         <div className="  p-10 flex flex-col  justify-center container">
           <h1 className="text-5xl">
-            Hi, I&#39;m Cat. A full-stack web developer.
+            Hi, I&#39;m Cat, a software engineer.
           </h1>
           <p className="my-10 text-md">
             I&#39;m a highly motivated and enthusiastic developer looking to
@@ -46,7 +46,7 @@ function About() {
             </a>
 
             <a
-              href="mailto: catmcclelland@yahoo.com"
+              href="mailto: catmcclelland.dev@gmail.com"
               className="py-2 px-3 bg-gray-800 rounded-full">
               Email Me
             </a>
